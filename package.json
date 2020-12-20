@@ -1,6 +1,6 @@
 {
   "name": "@patrickdlogan/cstr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "One-way constraint variables with lazy mark-and-sweep dependency maintenance.",
   "type": "module",
   "repository": "github:patrickdlogan/cstrjs",
