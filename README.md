@@ -1,6 +1,6 @@
 # CSTR #
 
-A CSTR Variable is like a spreadsheet cell.
+A CSTR Variable is like a spreadsheet cell. One-way constraint variables with lazy mark and sweep dependency maintenance.
 
 ### What is this repository for? ###
 
