@@ -1,4 +1,9 @@
 /**
+ * The cstr module provides a spreadsheet-like Variable whose values may be any data or a formula that depends on the
+ * value of other variables,
+ * @module
+ */
+/**
  * Class for system-wide behavior. Variables whose formulas are currently demanding the value of another variable are
  * found on the demandingVariables stack during the sweep phase of the lazy mark-and-sweep dependency management.
  * Daemons in the daemon queue are executed prior to sweeping out-of-date formulas when getting the current value of a
@@ -296,4 +301,7 @@ function addDaemon(daemon) {
 
 const system = new ConstraintSystem();
 
-export { Variable, addDaemon };
+export {
+    Variable,
+    addDaemon
+};

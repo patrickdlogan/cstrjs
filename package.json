@@ -8,10 +8,17 @@
   "scripts": {
     "test": "node tests/cstr_test.js"
   },
-  "keywords": ["dataflow", "constraints", "spreadsheet"],
+  "keywords": [
+    "dataflow",
+    "constraints",
+    "spreadsheet"
+  ],
   "author": "Patrick Logan",
   "license": "ISC",
   "devDependencies": {
     "tape": "^5.0.1"
+  },
+  "dependencies": {
+    "jsdoc": "^3.6.6"
   }
 }
