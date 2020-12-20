@@ -1,0 +1,17 @@
+{
+  "name": "@patrickdlogan/cstr",
+  "version": "1.0.0",
+  "description": "One-way constraint variables with lazy mark-and-sweep dependency maintenance.",
+  "type": "module",
+  "repository": "github:patrickdlogan/cstrjs",
+  "main": "cstr.js",
+  "scripts": {
+    "test": "node tests/cstr_test.js"
+  },
+  "keywords": ["dataflow", "constraints", "spreadsheet"],
+  "author": "Patrick Logan",
+  "license": "ISC",
+  "devDependencies": {
+    "tape": "^5.0.1"
+  }
+}
